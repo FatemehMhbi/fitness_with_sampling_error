@@ -14,5 +14,5 @@ example: \
 python3.7 sampling_error.py clusters_frequencies_example.csv 100 14\
 frequency_file should be in csv format \
 iterations_no is number of times the fitness coefficient of poisson distributed frequencies is calculated. \
-time_period which is 14 for the example file, can be 1 (daily), 7 (weekly), 14 (two_weeks),... depends on the frequency file.
-It will save the result in a csv file adding "_CI_h_i" at the end of the frequency file name.
+time_period which is 14 for the example file, can be 1 (daily), 7 (weekly), 14 (two_weeks),... depends on the frequency file. \
+It saves the result in a csv file with the name "frequency file name + _fitness_CI.csv".
