@@ -9,7 +9,10 @@ Skums, Pavel, et al. "Numerical detection, measuring and analysis of differentia
 
 # How to run:
 Type in the command line: \
-python3.7 sampling_error.py clusters_frequencies_example.csv iterations_no time_period\
+python3.7 sampling_error.py frequency_file iterations_no time_period\
+example: \
+python3.7 sampling_error.py clusters_frequencies_example.csv 100 14\
+frequency_file should be in csv format \
 iterations_no is number of times the fitness coefficient of poisson distributed frequencies is calculated. \
 time_period which is 14 for the example file, can be 1 (daily), 7 (weekly), 14 (two_weeks),... depends on the frequency file.
 It will save the result in a csv file adding "_CI_h_i" at the end of the frequency file name.
